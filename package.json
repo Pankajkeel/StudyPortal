@@ -1,0 +1,32 @@
+{
+  "name": "keel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 4005",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeelTech/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeelTech/website/issues"
+  },
+  "homepage": "https://github.com/KeelTech/website#readme",
+  "devDependencies": {
+    "@emotion/babel-plugin": "11.0.0"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.7.1",
+    "next": "^12.1.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-login": "^5.2.2"
+  }
+}
